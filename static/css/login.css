@@ -1,0 +1,46 @@
+.container{
+  background-color: #35C029;
+  height:fit-content;
+  width:fit-content;
+  display:flex;
+  flex-direction: column;
+  margin:100px auto;
+  border-radius: 15px;
+  padding:20px;
+  
+}
+.form-inp{
+  
+  width:250px;
+  border:none;
+  background-color: azure;
+  border-radius:5px;
+  font-size: 15px;
+}
+
+.row
+{
+  justify-content: space-between;
+  margin-top:10px;
+  display: flex;
+  flex-direction: row;
+}
+
+label{
+  color:white;
+  text-align: left;
+  padding:5px;
+}
+
+.forgotlink{
+  margin:auto auto;
+}
+
+
+
+
+
+
+
+
+

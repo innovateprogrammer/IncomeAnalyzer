@@ -1,0 +1,105 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* -----------------------------------------Header------------------------------------ */
+nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    background-color: rgba(19, 21, 21, 0.605);
+    display:flex;
+    padding:20px;
+    color:white;
+    height:50px;
+    justify-content: space-between;
+    
+}
+
+  .user{
+    position: absolute;
+    right:25px;
+    display:flex;
+    justify-content: space-between;
+    height:45px;
+    width:45px;
+    border-radius: 50%;
+    margin:auto 120px;
+    align-items: center;
+    font-size:30px;
+    padding:10px 10px 15px 15px;
+    font-weight:700;
+    text-align: center;
+  }
+  
+  h2{
+    text-align: center;
+    color:white;
+}
+/*------------------------------------------------End Header-----------------------------------*/
+
+.btn{
+  background-color: #293201;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  border:none;
+  width:fit-content;
+  height:fit-content;
+  margin:auto auto;
+  padding:10px;
+  color:white;
+}
+
+.btn:hover{
+  background-color: #043565;
+
+}
+
+a{
+  color:white;
+  text-decoration: underline;
+}
+
+/*-------------------footer-----------------*/
+
+  
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding:20px;
+  background-color: rgba(19, 21, 21, 0.605);
+  color:white;
+  height:20px;
+
+
+}
+footer a{
+  color:white;
+}
+
+
+#color{
+  display: none;
+}
+#utype
+{
+  display: none;
+}
+/*------------------------------------------------End Footer-----------------------------------*/
